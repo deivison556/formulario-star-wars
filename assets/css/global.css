@@ -16,3 +16,34 @@
   --font-principal: "Roboto", sans-serif;
   --font-secundaria: "Poppins", sans-serif;
 }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-image: url(../imagens/02\ -\ background-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+}
+
+header .header-container-logo {
+  width: 120px;
+  height: 80px;
+}
+
+header .header-container-logo img {
+  width: 100%;
+  height: 80px;
+  display: block;
+}

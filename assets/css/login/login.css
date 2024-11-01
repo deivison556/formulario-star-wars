@@ -1,0 +1,99 @@
+.formulario-container {
+  width: 700px;
+  height: 400px;
+  background-color: var(--cor-primaria-preto);
+  border-radius: 0px 20px 0 20px;
+  display: flex;
+  margin: 15vh auto 0 auto;
+}
+
+.formulario-container .form-img {
+  width: 350px;
+  height: 400px;
+  border-radius: 0px 0px 0 20px;
+  display: inline-block;
+}
+
+.formulario-container .formulario-login {
+  width: 260px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px 49px;
+  padding: 5px;
+}
+
+.formulario-container .formulario-login h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: var(--font-principal);
+  margin-bottom: 20px;
+  color: var(--cor-padrao-branco);
+}
+
+.formulario-container .formulario-login .form-labeltitle {
+  font-size: 1.12rem;
+  font-weight: lighter;
+  text-transform: capitalize;
+  font-family: var(--font-secundaria);
+  margin-bottom: 8px;
+  color: var(--cor-padrao-branco);
+}
+
+.formulario-container .formulario-login .form-input-title {
+  background-color: var(--cor-secundaria-cinza);
+  border: none;
+  outline: none;
+  font-size: 0.8rem;
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+  color: var(--cor-padrao-branco);
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  appearance: none;
+}
+   
+
+.formulario-container .formulario-login .btn-login {
+  margin: 15px auto;
+  width: 140px;
+  height: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: var(--cor-tercearia-vermelho);
+  color: var(--cor-padrao-branco);
+  border-radius: 20px;
+  padding-top: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: var(--font-principal);
+  transition: 0.8s;
+}
+
+.formulario-container .formulario-login .btn-login:hover {
+  background-color: var(--cor-hover);
+}
+
+.formulario-container .formulario-login p, a {
+  text-align: center;
+  font-size: 0.87rem;
+  font-family: var(--font-secundaria);
+  color: var(--cor-padrao-branco);
+  font-weight: lighter;
+}
+
+.formulario-container .formulario-login .btn-register {
+  text-decoration: none;
+  font-size: 0.75rem;
+}
+
+.formulario-container .formulario-login .btn-register:hover {
+  color: var(--cor-hover);
+  text-decoration: underline;
+}
+
